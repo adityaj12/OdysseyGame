@@ -66,6 +66,8 @@ def word_search():
             word_bank.remove(word_dict[word])
             num_words_found += 1
 
+    clear_output()
+    print("Words found: " + str(num_words_found))
     return num_words_found
 
 # Blackjack
