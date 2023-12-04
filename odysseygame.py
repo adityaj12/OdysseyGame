@@ -47,8 +47,8 @@ def word_search():
     while (num_words_found < 15 and (time.time() - start) < 120):
 
         clear_output()
-        print(word_bank + "\n")
-        print("Words Left: " + str(15 - num_words_found))
+        print(word_bank)
+        print("\nWords Left: " + str(15 - num_words_found))
         for row in grid:
             print(row)
 
