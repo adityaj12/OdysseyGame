@@ -47,6 +47,7 @@ def word_search():
     while (num_words_found < 15 and (time.time() - start) < 120):
 
         clear_output()
+        print(word_bank + "\n")
         print("Words Left: " + str(15 - num_words_found))
         for row in grid:
             print(row)
@@ -65,7 +66,7 @@ def word_search():
             word_bank.remove(word_dict[word])
             num_words_found += 1
 
-    print("Words Found: " + str(num_words_found))
+    return num_words_found
 
 # Blackjack
 def blackjack():
