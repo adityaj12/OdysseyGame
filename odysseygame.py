@@ -143,8 +143,9 @@ def blackjack():
                 time.sleep(3)
                 break
 
+    clear_output()
     print("Number of Wins: " + str(num_wins))
-    return num_wins
+    return num_wins * 4
 
 # Rock Paper Scissors Boulder Sheep
 def rpsbh():
