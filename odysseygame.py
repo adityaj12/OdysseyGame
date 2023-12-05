@@ -345,9 +345,9 @@ def pig_tac_toe():
             else:
                 print("\nCirce's Turn\n")
                 time.sleep(4)
-                coin = random.randint(0, 2)
+                coin = random.randint(0, 3)
 
-                if coin < 2:
+                if coin < 3:
                     loc = random.choice(nums_left)
                     nums_left.remove(loc)
 
