@@ -213,7 +213,7 @@ def rpsbh():
         elif p1_choice == "h":
             if p2_choice == "h":
                 print("Tie!")
-            elif p2_choice == "p" or p2_choice == "r":
+            elif p2_choice == "p" or p2_choice == "b":
                 print("Noman Wins!")
                 num_wins += 1
             else:
