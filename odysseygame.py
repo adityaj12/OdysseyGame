@@ -386,7 +386,7 @@ def pig_tac_toe():
     time.sleep(5)
     clear_output()
     print("Rounds Won: " + str(games_won))
-    return games_won
+    return games_won * 5
 
 def win_check(board, symb):
 
