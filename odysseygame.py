@@ -484,6 +484,7 @@ def wordle():
             time.sleep(6)
 
     clear_output()
+    print("Score: " + str(score))
     return score
 
 def is_valid(word, letters):
