@@ -122,6 +122,7 @@ def blackjack():
                 break
             elif dealer_score > 21:
                 print("Dealer Busts! Player Wins!")
+                num_wins += 1
                 time.sleep(3)
                 break
 
