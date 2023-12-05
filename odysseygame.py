@@ -167,7 +167,7 @@ def rpsbh():
         print("")
         time.sleep(1.5)
 
-        print("Nobody chooses: " + p1_choice)
+        print("Noman chooses: " + p1_choice)
         time.sleep(1.5)
         print("Polyphemus chooses: " + p2_choice)
         time.sleep(1.5)
@@ -177,7 +177,7 @@ def rpsbh():
             if p2_choice == "r":
                 print("Tie!")
             elif p2_choice == "s" or p2_choice == "h":
-                print("Nobody Wins!")
+                print("Noman Wins!")
                 num_wins += 1
             else:
                 print("Polyphemus Wins!")
@@ -186,7 +186,7 @@ def rpsbh():
             if p2_choice == "p":
                 print("Tie!")
             elif p2_choice == "r" or p2_choice == "b":
-                print("Nobody Wins!")
+                print("Noman Wins!")
                 num_wins += 1
             else:
                 print("Polyphemus Wins!")
@@ -195,7 +195,7 @@ def rpsbh():
             if p2_choice == "s":
                 print("Tie!")
             elif p2_choice == "p" or p2_choice == "h":
-                print("Nobody Wins!")
+                print("Noman Wins!")
                 num_wins += 1
             else:
                 print("Polyphemus Wins!")
@@ -204,7 +204,7 @@ def rpsbh():
             if p2_choice == "b":
                 print("Tie!")
             elif p2_choice == "r" or p2_choice == "s":
-                print("Nobody Wins!")
+                print("Noman Wins!")
                 num_wins += 1
             else:
                 print("Polyphemus Wins!")
@@ -213,7 +213,7 @@ def rpsbh():
             if p2_choice == "h":
                 print("Tie!")
             elif p2_choice == "p" or p2_choice == "r":
-                print("Nobody Wins!")
+                print("Noman Wins!")
                 num_wins += 1
             else:
                 print("Polyphemus Wins!")
