@@ -55,11 +55,11 @@ def word_search():
         print("")
 
         dir = input("direction: ")
-        time.sleep(1)
+        time.sleep(0.75)
         row = input("row: ")
-        time.sleep(1)
+        time.sleep(0.75)
         col = input("column: ")
-        time.sleep(1)
+        time.sleep(0.75)
 
         word = dir + row + col
         if word in word_dict and word_dict[word] in word_bank:
