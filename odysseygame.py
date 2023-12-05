@@ -218,7 +218,7 @@ def rpsbh():
             else:
                 print("Polyphemus Wins!")
 
-        time.sleep(2)
+        time.sleep(3)
         clear_output()
 
     print("Rounds won: " + str(num_wins))
