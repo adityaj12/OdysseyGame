@@ -221,7 +221,8 @@ def rpsbh():
         time.sleep(2)
         clear_output()
 
-    return num_wins
+    print("Rounds won: " + str(num_wins))
+    return num_wins * 2
 
 # Hangman
 def hang_man():
